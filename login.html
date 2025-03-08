@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="login.css">
+    
+    <!-- <link rel="stylesheet" href="sty.css"> -->
+    <title>Login Page-Formula1</title>
+    
+</head>
+<body>
+    <!-- <div class="navbar"> 
+        <div class="icon">
+            <img src = "images/logo1.jpg" alt = "F1 Logo" width="190px" height="130px">
+        </div>
+        <div class="nav">
+            <div>            
+                <a href = "home.html">HOME</a>
+            </div>
+            <div>
+                <a href = "drivers.html">DRIVERS</a>
+            </div>
+            <div>
+                <a href = "about.html">ABOUT</a>
+            </div>
+            <div>
+                <a href = "contact.html">CONTACTS</a>
+            </div>
+            <div class = "active">
+                <a href = "teams.html">TEAMS</a>
+            </div> 
+            <div>
+                <a href = "register.php">REGISTRATION</a>
+            </div>
+            <div>
+                <a href = "account.html">ACCOUNT</a>
+            </div>
+        </div>
+    </div>-->
+    <header class="header">
+     
+        <div class="navbar">
+            <h1 class="logo">
+                Lot<span class="spanner">us</span> & Sp<span class="spanner">ice</span>
+            </h1>
+            <div class="othernav">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="login.html">CONTACT</a></li>
+                   <!--  <li><a href="">ABOUT</a></li> -->
+                    <li><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                    
+                </ul>
+               
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+    </header>
+    <div class="animator-box">
+
+
+
+        <div class="container">
+            <span class="bg-animation"></span>
+            <span class="bg-animation2"></span>
+    
+            <div class="input-box login">
+                <h2 class="animation" style="--i:0;  --j:21;">Login</h2>
+                <form action="#">
+                    <div class="input animation " style="--i:1;  --j:22;">                    
+                        <input type="text" required maxlength="16">
+                        <label for="Username">Username</label>
+                        <!-- <i class='bx bxs-user'></i> -->
+                    </div>          
+                    <div class="input animation" style="--i:2;  --j:23;">                      
+                        <input type="password" required maxlength="10">
+                        <label for="Password">Password</label>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn animation" style="--i:3;  --j:24;"> Login</button>
+                    </div>
+                    <div class="signup animation" style="--i:4;  --j:25;">
+                        <p>Don't have an account?<a href="#" class="register-link">Sign Up</a></p>
+                    </div>
+                </form>
+            </div> 
+            <div class="info-text login">
+                <h2 class="animation" style="--i:0;  --j:20;">Welcome Back!</h2>
+                <p class="animation" style="--i:1; --j:21;">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            </div>
+    
+            <div class="input-box register">           
+                <h2 class="animation" style="--i:17; --j:0;">Sign Up</h2>
+                <form action="#">
+                    <div class="input animation" style="--i:18; --j:1;">                    
+                        <input type="text" required>
+                        <label for="Username">Username</label>
+                        <!-- <i class='bx bxs-user'></i> -->
+                    </div> 
+                    <div class="input animation" style="--i:19; --j:2;">                      
+                        <input type="email" required>
+                        <label for="email">Email</label>
+                    </div>         
+                    <div class="input animation" style="--i:20; --j:3;">                      
+                        <input type="password" required>
+                        <label for="Password">Password</label>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn animation" style="--i:21; --j:4;">Sign Up</button>
+                    </div>
+                    <div class="signup animation" style="--i:22; --j:5;">
+                        <p>Already have an account?<a href="#" class="login-link"> Login</a></p>
+                    </div>
+                </form>
+            </div>  
+            <div class="info-text register">
+                <h2 class="animation" style="--i:17; --j:0;">Welcome Back!</h2>
+                <p class="animation" style="--i:18; --j:1;">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+            </div>
+        </div>
+    
+
+    </div>
+    
+   
+    <script src="script.js"></script>
+
+</body>
+</html>
